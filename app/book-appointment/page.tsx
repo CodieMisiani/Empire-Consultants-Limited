@@ -1,0 +1,2 @@
+import { PageHero } from "@/components/page-hero";import { LeadForm } from "@/components/lead-form";
+export default function Appointment(){return <><PageHero eyebrow="Book a consultation" title="Your global journey starts here.">Book an appointment with an adviser and get a clear plan for your next steps.</PageHero><section className="section shell" style={{maxWidth:760}}><div className="card" style={{padding:32}}><LeadForm source="appointment"/></div></section></>}

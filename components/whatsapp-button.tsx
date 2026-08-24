@@ -1,0 +1,2 @@
+import { MessageCircle } from "lucide-react";
+export function WhatsAppButton() { const number=process.env.WHATSAPP_NUMBER || "254734004003"; return <a href={`https://wa.me/${number}`} aria-label="Chat with Empire Consultants on WhatsApp" target="_blank" rel="noreferrer" style={{position:"fixed",right:24,bottom:24,zIndex:30,width:56,height:56,display:"grid",placeItems:"center",borderRadius:"50%",background:"#25D366",color:"white",boxShadow:"0 4px 18px #0004"}}><MessageCircle /></a>; }
