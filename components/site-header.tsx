@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { gsap } from "gsap";
 import { BrandLogo } from "@/components/brand-logo";
 
-const links = [["About Us", "/about"], ["Services", "/services"], ["Study Abroad", "/study-abroad"], ["Countries", "/countries"], ["Events", "/events"], ["Contact", "/contact"]];
+const links = [["Home", "/"], ["About Us", "/about"], ["Services", "/services"], ["Study Abroad", "/study-abroad"], ["Countries", "/countries"], ["Events", "/events"], ["Contact", "/contact"]];
 
 export function SiteHeader() {
   const pathname = usePathname();
