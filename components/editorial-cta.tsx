@@ -9,7 +9,7 @@ type EditorialCtaProps = {
   label?: string;
 };
 
-export function EditorialCta({ eyebrow = "Your next chapter", title, children, href = "/book-appointment", label = "Book a consultation" }: EditorialCtaProps) {
+export function EditorialCta({ eyebrow = "Your next chapter", title, children, href = "/contact", label = "Get in touch" }: EditorialCtaProps) {
   return <section className="editorial-cta">
     <div className="shell editorial-cta__inner">
       <div>
