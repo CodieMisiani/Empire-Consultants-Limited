@@ -1,0 +1,2 @@
+import { AdminCollection } from "@/components/admin-collection";
+export default function EventsAdmin(){return <main className="shell section"><p className="eyebrow">Content management</p><h1 className="display">Events</h1><p className="lead">Create, publish and manage events from one place.</p><AdminCollection kind="events"/></main>}
