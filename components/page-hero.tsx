@@ -1,1 +1,2 @@
-export function PageHero({eyebrow,title,children}:{eyebrow?:string;title:string;children:React.ReactNode}) { return <header className="page-intro shell">{eyebrow&&<p className="eyebrow">{eyebrow}</p>}<h1 className="display" style={{marginTop:12}}>{title}</h1><div className="lead" style={{marginTop:20}}>{children}</div></header>; }
+import { ScrollReveal } from "@/components/scroll-reveal";
+export function PageHero({eyebrow,title,children}:{eyebrow?:string;title:string;children:React.ReactNode}) { return <ScrollReveal><header className="page-intro shell">{eyebrow&&<p className="eyebrow">{eyebrow}</p>}<h1 className="display" style={{marginTop:12}}>{title}</h1><div className="lead" style={{marginTop:20}}>{children}</div></header></ScrollReveal>; }
